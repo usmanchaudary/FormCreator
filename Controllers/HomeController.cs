@@ -1,4 +1,5 @@
-﻿using FormCreator.Models;
+﻿using FormCreator.HelperClasses;
+using FormCreator.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -18,7 +19,11 @@ namespace FormCreator.Controllers
             return View();
         }
 
+        public IActionResult GenerateForm(List<FormObject> formObject)
+        {
+            return View(formObject);
 
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
