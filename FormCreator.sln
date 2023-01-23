@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCreator", "FormCreator.csproj", "{51CA4022-FA69-4A13-87EB-A2025E7AF53F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51CA4022-FA69-4A13-87EB-A2025E7AF53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CA4022-FA69-4A13-87EB-A2025E7AF53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CA4022-FA69-4A13-87EB-A2025E7AF53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CA4022-FA69-4A13-87EB-A2025E7AF53F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7331B31F-BA11-4D4E-8B82-9FEA0FABB7D9}
+	EndGlobalSection
+EndGlobal
